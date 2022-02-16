@@ -1,0 +1,33 @@
+Test files for hangman_v5
+============================================================================
+Case 1
+
+input: 
+Select difficulty: 1 for Easy, 2 for Medium, 3 for Hard, 4 for Extreme.: 1
+
+output:
+
+Your word has 4 words on it
+
+~~~~
+
+============================================================================
+Case 2
+
+input:
+Select difficulty: 1 for Easy, 2 for Medium, 3 for Hard, 4 for Extreme.: 4
+
+output:
+
+Your word has 9 words on it
+
+~~~~~~~~~
+============================================================================
+Case 3
+
+input:
+Select difficulty: 1 for Easy, 2 for Medium, 3 for Hard, 4 for Extreme.: 6
+
+output:
+
+*error*

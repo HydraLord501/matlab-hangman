@@ -1,0 +1,42 @@
+Test files for hangman_v2 for word = lightsaber
+============================================================================
+Case 1
+
+input
+
+guessLetter = l
+
+output:
+
+Correct Letter Guessed
+============================================================================
+Case 2
+
+input
+
+guessLetter = s
+
+output:
+
+Correct Letter Guessed
+============================================================================
+Case 3
+
+input
+
+guessLetter = x
+
+output:
+
+no output
+============================================================================
+Case 4
+
+input
+
+word = 'project'
+
+output:
+
+Your word has 6 letters on it.
+~~~~~~

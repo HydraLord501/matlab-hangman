@@ -1,0 +1,91 @@
+Test files for hangman_v4
+
+============================================================================
+									    
+word = 'lightsaber'							    
+									    
+Your word has 10 letters on it.
+~~~~~~~~~~
+============================================================================
+Case 1
+
+*wrong Guesses = 0*
+
+input: Guess a letter: c
+
+output: 
+
+ _____
+|     |
+|     O
+|
+|
+----
+You guessed the incorrect letter.
+You have 5 attempts remaining.
+============================================================================
+Case 2
+
+*wrong Guesses = 3*
+
+input: Guess a letter: x
+
+output:
+
+ _____
+|     |
+|     O
+|    -|-
+|
+----
+
+You guessed the incorrect letter.
+You have 2 attempts remaining.
+============================================================================
+Case 3
+
+*wrong Guesses = 1*
+
+input: Guess a letter: m
+
+output: 
+
+ _____
+|     |
+|     O
+|     |
+|
+----
+
+You guessed the incorrect letter.
+You have 6 attempts remaining.
+============================================================================
+Case 4
+
+*wrong Guesses = 7*
+
+input: 
+
+Guess a letter: q
+
+output:
+
+no output
+============================================================================
+Case 5
+
+*wrong Guesses = 5*
+
+Guess a letter: v
+
+output:
+
+ _____
+|     |
+|     O
+|    -|-
+|    / \
+----
+
+You lose! The word was lightsaber
+============================================================================
